@@ -1,13 +1,23 @@
 const orm = require("../config/orm.js");
 
 const burgers = {
-    selectAll() {
+    select:(cb) => {
+        orm.selectAll(function(res) {
+            cb(res);
+        });
 
     },
-    insertOne() {
+    insert:(newBurger, cb) => {
+        orm.insertOne(newBurger, (res) => {
+            cb(res);
+        })
 
     },
-    updateOne() {
-        
+    devour:(id, cb) => {
+        orm.updateOne(id, (res) => {
+            cb(res);
+        })        
     }
 }
+
+module.exports = burgers;
