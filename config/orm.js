@@ -9,9 +9,10 @@ const orm = {
             cb(res);
         });
     },
+    /* create*/ 
     insertOne: (newBurger, cb) => {
         console.log(newBurger);
-        let queryS = `INSERT INTO burgers VALUE ?? = ?`;
+        let queryS = `INSERT INTO burgers VALUE (default,"${newBurger}",false,default)`;
         connection.query(queryS, (err, res) => {
             if (err) throw err;
             cb(res);
