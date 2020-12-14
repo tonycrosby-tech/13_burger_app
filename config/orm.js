@@ -12,7 +12,7 @@ const orm = {
     /* create*/ 
     insertOne: (newBurger, cb) => {
         console.log(newBurger);
-        let queryS = `INSERT INTO burgers VALUE (default,"${newBurger}",false,default)`;
+        let queryS = `INSERT INTO burgers VALUE (default,"${newBurger}",false)`;
         connection.query(queryS, (err, res) => {
             if (err) throw err;
             cb(res);
