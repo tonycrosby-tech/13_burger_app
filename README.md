@@ -1,5 +1,5 @@
 ![GitHub Issues state](https://img.shields.io/github/issues/tonycrosby-tech/13_burger_app)
-![GitHub License:](https://img.shields.io/github/license/tonycrosby-tech/13_burger_app)
+![GitHub License:](https://github.com/tonycrosby-tech/13_burger_app/blob/master/LICENSE)
 ![GitHub Stars:](https://img.shields.io/github/stars/tonycrosby-tech/13_burger_app)
 
 # EAT DA BURGER!
