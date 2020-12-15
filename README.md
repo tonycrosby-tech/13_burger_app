@@ -12,7 +12,7 @@
 - [Credits](#Credits)
 - [Test](#Test)
 - [Contributing](#Contributing)
-- [Screenshots] (#Screenshots)
+- [Screenshots](#Screenshots)
 
 # Description
 
